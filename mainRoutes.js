@@ -3,7 +3,7 @@ let express = require('express');
 let mainRouter = express.Router();
 
 mainRouter.get('/', function(req,res){
-	res.send('hello world');
+	res.send('hello world, I\'m Node.js');
 });
 
 mainRouter.get('/about',function(req,res){
